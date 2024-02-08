@@ -15,3 +15,11 @@ The program makes use of Express.js to create a small API about music albums (al
 The spaces are handeled by the **URL_Transform** to create the paths to the added data
 
 ![URL_Transform function in client's side](code.png)
+
+~~___________________________________________________________________________________________________________________~~
+
+# Use instructions / Instrucciones de uso
+- Clone this repo.
+- Run **npm install** on the *APIs* folder to add the node modules.
+- Run **nodemon index.js** in said folder to start the server.
+- Open **index.html** in the *APIs_Client* folder on your browser.
