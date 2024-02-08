@@ -1,0 +1,97 @@
+body {
+    font-family: "Modern";
+    background-image: url("https://blog.electrohome.com/wp-content/uploads/2020/10/Local-Record-Store.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: "Modern";
+    src: url(fonts/Orbitron-VariableFont_wght.ttf);
+}
+
+a {
+    color: #a00;
+    transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #f00;
+}
+
+.neon {
+    color: #fff;
+    font-size: 90px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-shadow: 
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #ffaaaa,
+        0 0 80px #ffaaaa
+    ;
+}
+
+.neon span {
+    animation: flicker 500ms linear;
+}
+
+.neon .a1 {
+    animation-delay: 1s;
+}
+
+.neon .a2 {
+    animation-delay: 1.2s;
+}
+
+.neon .a3 {
+    animation-delay: 1.6s;
+}
+
+@keyframes flicker {
+    0% {opacity: 0;}
+    10% {opacity: 1;}
+    20% {opacity: 0;}
+    40% {opacity: 1;}
+    50% {opacity: 0;}
+    60% {opacity: 1;}
+    80% {opacity: 0;}
+    100% {opacity: 1;}
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    background-image: linear-gradient(transparent 50%, #000);
+}
+
+.table {
+    height: 100%;
+    width: 100%;
+}
+
+/*Style for the Add Songs form*/
+
+.form {
+    background-color: #d6d6d6;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0);
+}
+
+.form input {
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.form input:focus {
+    box-shadow: 0 0 5px rgba(255, 0, 0);
+    border: none;
+}
+
+.form .btn {
+    margin: 15px 0 0 0;
+    padding: 5px;
+    width: 49%;
+}
